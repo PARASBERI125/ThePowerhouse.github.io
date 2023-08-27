@@ -1,0 +1,141 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    height: 100%;
+    width:100%;
+    
+    color: #fff8f1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#hero{
+    width: 100%;
+    line-height: 1.5vw;
+
+}
+#hero h1{
+  text-transform: uppercase;
+  padding: 1vw;
+  
+}
+#hero h4{
+    
+    text-transform: uppercase;
+    padding-left: 1vw;
+     
+}
+#point1{
+   padding: 1vw;
+    padding-top: 2vw;
+    display: flex;
+   align-items: center;
+   border-top: 3px solid #fff8f1;
+}
+#point2{
+    padding: 1vw;
+    display: flex;
+   align-items: center;
+}
+#point3{
+    padding: 1vw;
+    display: flex;
+   align-items: center;
+}
+#chestacc{
+    margin:60px auto;
+  
+    list-style: none;
+    width: 97vw;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background: black;
+    box-shadow: 6px 6px 10px -1px #fff8f1;
+    box-shadow: -6px -6px 10px -1px #fff8f1;
+}
+
+#chestacc label{
+    display: flex;
+    align-items: center;
+    padding:0px,10px,10px, 10px;
+    padding-bottom: 10px;
+    
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+input[type="radio"]{
+    display: none;
+}
+#content p{
+    padding-bottom: 1.5vw;
+}
+#content{
+    color:#fff8f1;
+    padding: 0px 10px;
+    line-height: 26px;
+    max-height:0 ;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+#chestacc input[type="radio"]:checked + label + #content{
+    max-height: 500vw;
+    padding: 10px,10px,20px;
+}
+#chestacc input[type="radio"]:checked + label::before{
+    content:'-';
+}
+#tablebox{
+    margin:5px auto;
+    margin-bottom: 40px;
+}
+#tablerow{
+    display:table;
+    width:100%;
+    margin: 5px auto;
+    padding: 8px 0;
+   font-size: 13px;
+   box-shadow: 0 1px 4px 0 #fff8f1;
+}
+#tablecell{
+    display:table-cell;
+    width: 25%;
+    text-align: center;
+    padding: 2px 0;
+    border-right: 1px solid #fff8f1;
+    vertical-align: center;
+
+}#tablecell p{
+    text-transform: uppercase;
+    
+    font-size:medium;
+    
+    
+}
+#footer{
+    
+    height:8vw;
+    width:100%;
+     display: flex;
+     align-items: center;
+     padding-left: 2vw;
+}#footer i{
+padding-left: 0.5vw;
+}

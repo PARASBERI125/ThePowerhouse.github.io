@@ -1,0 +1,120 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    height: 100%;
+    width:100%;
+   
+    color: #fff8f1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#heading{
+    width: 100%;
+    
+}#heading h1{
+    padding: 1vw;
+    text-transform: uppercase;
+}
+#gyaan{
+    
+    width: 100%;
+    
+    text-transform: uppercase;
+     line-height: 1.5vw;
+    border-top: 2px solid #fff8f1;
+}
+#gyaan h4{
+    padding-left: 1vw;
+}
+#point1{
+   
+    
+    padding: 1vw;
+    padding-top: 2vw;
+    display: flex;
+   align-items: center;
+   border-top: 1px solid #fff8f1;
+}
+
+#point2{
+    padding: 1vw;
+    display: flex;
+   align-items: center;
+}
+#point3{
+    padding: 1vw;
+    display: flex;
+   align-items: center;
+}
+#hero{
+    width: 100%;
+   padding: 1vw;
+   padding-top: 5vw;
+}
+#push h2{
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    text-transform: uppercase;
+    
+}
+#pull h2{
+    padding-top: 5vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    text-transform: uppercase;
+}
+#legs h2{
+    padding-top: 5vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    text-transform: uppercase;
+}
+#tablebox{
+    margin:5px auto;
+    margin-bottom: 40px;
+}
+#tablerow{
+    display:table;
+    width:100%;
+    margin: 5px auto;
+    padding: 8px 0;
+   font-size: 13px;
+   box-shadow: 0 1px 4px 0 #fff8f1;
+}
+#tablecell{
+    display:table-cell;
+    width: 25%;
+    text-align: center;
+    padding: 2px 0;
+    border-right: 1px solid #fff8f1;
+    vertical-align: center;
+
+}#tablecell p{
+    text-transform: uppercase;
+    
+    font-size:medium;
+    
+    
+}
+#footer{
+    
+    height:5vw;
+    width:100%;
+     display: flex;
+     align-items: center;
+     padding-left: 2vw;
+     padding-bottom: 2vw;
+}#footer i{
+padding-left: 0.5vw;
+}
